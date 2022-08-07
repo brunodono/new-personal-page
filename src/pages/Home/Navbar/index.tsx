@@ -11,7 +11,6 @@ const Navbar = () => {
             <li><a href="#contact" className={styles.enabledisablepage}>Contact</a></li>
           </ul>
         </nav>
-
     )
 }
 

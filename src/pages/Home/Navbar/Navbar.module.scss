@@ -2,8 +2,6 @@
     nav {
       position: fixed;
       top: 60px;
-       right: 50%;
-      left: 8%; 
       padding: 20px 50px;
       display: flex;
       justify-content: space-between;
@@ -17,7 +15,7 @@
       border-top: 1px solid rgba(255, 255, 255, 0.5);
       border-left: 1px solid rgba(255, 255, 255, 0.5);
       z-index: 90;
-      width: calc(95% - 180px);
+      width: calc(100% - 180px);
     }
   
     @media (max-width: 900px) {
@@ -106,7 +104,7 @@
     }
   }
   
-  nav .logo {
+  .logo {
     color: black;
     font-weight: 700;
     text-decoration: none;
