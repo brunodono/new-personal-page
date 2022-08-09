@@ -1,0 +1,62 @@
+@import 'styles/_variables.scss';
+
+.icon {
+    padding: 35px 20px 0px;
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: -10px;
+    opacity: 0.5;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2); 
+    opacity: 1;
+  }
+
+  .html:hover {
+    filter: $html;
+  }
+  .css:hover { 
+    filter: $css;
+}
+
+  .javascript:hover { 
+    filter: $javascript;
+}
+
+.git:hover { 
+    filter: $git;
+}
+.github:hover { 
+    filter: $github;
+}
+.bootstrap:hover { 
+    filter: $bootstrap;
+}
+.jquery:hover { 
+    filter: $jquery;
+}
+.typescript:hover { 
+    filter: $typescript;
+}
+.json:hover { 
+    filter: $json;
+}
+.react:hover { 
+    filter: $react;
+}
+.npm:hover { 
+    filter: $npm;
+}
+// .node:hover { 
+    
+// }
+.sass:hover { 
+    filter: $sass;
+}
+.mui:hover { 
+    filter: $mui;
+}
+  

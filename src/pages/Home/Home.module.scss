@@ -7,23 +7,11 @@
   align-items: center;
   min-height: 100vh;
   padding: 50px;
-    padding: 20px $padding-horizontal;
-    @media (max-width: $desktop_xsm) {
-      padding: 20px $padding-horizontal-mobile;
-    }
-    @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
-      padding: 20px $padding-horizontal-sm;
-    }
-    @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
-      padding: 20px $padding-horizontal-md;
-    }
-
     
 .container {
   position: relative top;
-  width: calc(100% - 100px);
-  min-height: calc(100vh - 280px);
-  min-height: 300px;
+  width: 90%;
+
   background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   border-radius: 1rem;
@@ -32,7 +20,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 50px;
-  margin-top:20px;
+  margin-top:80px;
 }
 
 
