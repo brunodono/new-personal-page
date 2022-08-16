@@ -1,8 +1,12 @@
+a {
+  cursor: pointer;
+}
+
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     nav {
       position: fixed;
-      top: 60px;
-      padding: 20px 50px;
+      top: 0.5rem;
+      padding: 15px 50px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -22,10 +26,6 @@
       nav {
         position: fixed;
         top: 10px;
-        /* top: -0px; */
-        /* right: 0px;
-        left: 0px; */
-        /* width: 100%; */
         width: calc(100% - 80px);
         flex-direction: column;
         padding: 20px;
@@ -45,17 +45,18 @@
       }
     }
   }
-  @media (max-width: 380px) {
-    nav {
-      position: relative;
-      top: -120px;
-      right: 0px;
-      left: 0px;
-      width: 100%;
-      flex-direction: column;
-      padding: 20px;
-    }
-  }
+  // @media (max-width: 380px) {
+  //   nav {
+  //     position: relative;
+  //     top: -120px;
+  //     right: 0px;
+  //     left: 0px;
+  //     width: 100%;
+  //     flex-direction: column;
+  //     padding: 20px;
+  //     text-align: center;
+  //   }
+  // }
   
   @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
     nav {
@@ -106,7 +107,7 @@
   
   .logo {
     color: black;
-    font-weight: 700;
+    font-weight: 800;
     text-decoration: none;
     font-size: 2rem;
   }

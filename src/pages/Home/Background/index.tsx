@@ -11,6 +11,15 @@ const Background = () => {
                 <div className={styles.bgcircles__circle5}></div>
             </div>
             <div className={styles.bggreen}></div>
+
+            {/* <div className={styles.gears}>
+        <div className={styles.gear}>
+          <img src="assets/gear.png" alt='gear' className={styles.gear1} />
+        </div>
+        <div className={styles.gear}>
+          <img src="assets/gear.png" alt='gear' className={styles.gear2} />
+        </div>
+      </div> */}
         </>
 
     )

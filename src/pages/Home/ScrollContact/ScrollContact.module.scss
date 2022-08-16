@@ -83,22 +83,12 @@
     background: rgba(255, 255, 255, 0.5);
   }
   
-  .fagithub {
-    color: #333;
+  .socialsites img {
+    width: 50%;
+    height: auto;
+    transition: transform 0.2s;
   }
-  
-  .falinkedin {
-    color: #0077b5;
-  }
-  
-  .fafacebook {
-    color: #1877f2;
-  }
-  
-  .fainstagram {
-    color: #e1306c;
-  }
-  
-  .faphone {
-    color: #e1306c;
+
+  .socialsites a:hover img {
+    transform: scale(1.5);
   }

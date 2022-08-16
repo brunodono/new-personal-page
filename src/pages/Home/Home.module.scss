@@ -6,12 +6,19 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  width: fit-content;
   padding: 50px;
+
+  @media (max-width: 900px) {
+    .home {
+      padding: 10px;
+      width: fit-content
+    }
+  }
     
 .container {
   position: relative top;
   width: 90%;
-
   background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   border-radius: 1rem;
@@ -20,7 +27,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 50px;
-  margin-top:80px;
+  margin-top:5rem;
 }
 
 
@@ -34,10 +41,10 @@
 @media (max-width: 900px) {
   .container {
     flex-direction: column;
-    margin-top: 120px;
+    margin-top: 108px;
     height: auto;
     padding: 10px;
-    width: calc(100% - 75px);
+    width: calc(100% - 15px);
   }
 }
 
@@ -47,7 +54,7 @@
     margin-top: 80px;
     height: auto;
     padding: 10px;
-    width: calc(100% - 0px);
+    width: calc(100% - 10px);
   }
 }
   }
