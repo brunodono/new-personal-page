@@ -1,38 +1,36 @@
 [
     {
         "title": "Let Eat Be",
-        "info": "Italian restaurant application where you can access a menu with italian dishes. The system counts with an input to search the desired dish (no capital sensitive), also filter dishes by category and sort them by how many people the dish serves, portion and price, the cheapest to the most expensive",
-        "code":"https://github.com/brunodono/let-eat-be-restaurant",
-        "live":"https://let-eat-be-restaurant.vercel.app/",
-        "image":"https://raw.githubusercontent.com/brunodono/let-eat-be-restaurant/main/Screenshot.png"
+        "info": "Italian restaurant application where you can access a menu with italian dishes. The system counts with an input to search the desired dish (no capital sensitive), also filter dishes by category and sort them by how many people the dish serves, portion and price, the cheapest to the most expensive. The details of each dish can be viewed on click. There is also the Home page which has a section that suggest three dishes randomly as Chef recommendations. If by chance a non existent route is accessed, a Not Found (404) page will be shown. Last but not least the about page with details of the restaurant.","code": "https://github.com/brunodono/let-eat-be-restaurant",
+        "live": "https://let-eat-be-restaurant.vercel.app/",
+        "image": "https://raw.githubusercontent.com/brunodono/let-eat-be-restaurant/main/Screenshot.png"
     },
     {
         "title": "React Studies",
         "info": "An application to control tasks to be done with a timer. Built with create react app, applied with TypeScript. The app has external packages such as uuid, SASS, switchalert",
-        "code":"https://github.com/brunodono/react-studies-react-ts",
-        "live":"https://react-studies-react-ts.vercel.app/",
-        "image":"https://raw.githubusercontent.com/brunodono/react-studies-react-ts/main/src/assets/img/gif-app.gif"
+        "code": "https://github.com/brunodono/react-studies-react-ts",
+        "live": "https://react-studies-react-ts.vercel.app/",
+        "image": "https://raw.githubusercontent.com/brunodono/react-studies-react-ts/main/src/assets/img/gif-app.gif"
     },
     {
         "title": "Organo",
         "info": "A react application made to register and expose the contributors of a Brazilian IT school with their respective name, occupation, images and team on dynamic cards.",
-        "code":"https://github.com/brunodono/organo-react.js",
-        "live":"https://organo-react-js.vercel.app/",
-        "image":"https://raw.githubusercontent.com/brunodono/organo-react.js/main/screenshot1.png"
+        "code": "https://github.com/brunodono/organo-react.js",
+        "live": "https://organo-react-js.vercel.app/",
+        "image": "https://raw.githubusercontent.com/brunodono/organo-react.js/main/screenshot1.png"
     },
     {
         "title": "My Comment App",
         "info": "It's an application fully developed on React with JavaScript (JSX) where the user can add and remove comments. On the application it was implemented classes, state and the external packages sweetalert.",
-        "code":"https://github.com/brunodono/My-comment-app-react.js",
-        "live":"https://my-comment-app-react-js.vercel.app/",
-        "image":"https://raw.githubusercontent.com/brunodono/My-comment-app-react.js/main/resources/screenshots/print1.png"
+        "code": "https://github.com/brunodono/My-comment-app-react.js",
+        "live": "https://my-comment-app-react-js.vercel.app/",
+        "image": "https://raw.githubusercontent.com/brunodono/My-comment-app-react.js/main/resources/screenshots/print1.png"
     },
     {
         "title": "Tell Me A Joke",
         "info": "That is a very simple application that just throws a new joke out of an API on every button click.",
-        "code":"https://github.com/brunodono/tell-me-a-joke-react.ts",
-        "live":"https://tell-me-a-joke-react-ts.vercel.app/",
-        "image":"https://raw.githubusercontent.com/brunodono/tell-me-a-joke-react.ts/main/Screenshot_2.png"
+        "code": "https://github.com/brunodono/tell-me-a-joke-react.ts",
+        "live": "https://tell-me-a-joke-react-ts.vercel.app/",
+        "image": "https://raw.githubusercontent.com/brunodono/tell-me-a-joke-react.ts/main/Screenshot_2.png"
     }
-
 ]

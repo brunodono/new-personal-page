@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+html, body {
+  overflow-x: visible;
+}
+
 body {
   background: rgb(107, 169, 255);
   background: radial-gradient(
@@ -12,7 +16,6 @@ body {
     rgb(255, 255, 255) 0%,
     rgb(191, 191, 191) 100%);
   
-
 }
 
 ::-webkit-scrollbar {
