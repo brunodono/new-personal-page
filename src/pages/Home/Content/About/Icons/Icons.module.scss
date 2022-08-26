@@ -1,5 +1,21 @@
 @import 'styles/_variables.scss';
 
+table {
+    text-align: center;
+}
+tr{
+        display: flex;
+        flex-wrap: wrap;
+}
+td {
+    flex: 1 1 200px;
+
+    @media (max-width:500px) {
+        flex: 1 1 100px;
+        
+    }    
+}
+
 .icon {
     padding: 35px 20px 0px;
     transition: transform .2s;
@@ -8,6 +24,9 @@
     margin: 0 auto;
     margin-bottom: -10px;
     opacity: 0.5;
+    @media (max-width:500px) {
+
+    }
   }
   
   .icon:hover {

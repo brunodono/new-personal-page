@@ -45,18 +45,17 @@ a {
       }
     }
   }
-  // @media (max-width: 380px) {
-  //   nav {
-  //     position: relative;
-  //     top: -120px;
-  //     right: 0px;
-  //     left: 0px;
-  //     width: 100%;
-  //     flex-direction: column;
-  //     padding: 20px;
-  //     text-align: center;
-  //   }
-  // }
+  @media (max-width: 500px) {
+    nav {
+      width: 100%;
+      flex-direction: column;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      font-size: medium;
+    }
+  }
   
   @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
     nav {
@@ -79,30 +78,7 @@ a {
       border-left: 1px solid rgba(255, 255, 255, 0.5);
     }
   
-    @media (max-width: 900px) {
-      nav {
-        position: relative;
-        top: -60px;
-        right: 0px;
-        left: 0px;
-        width: 100%;
-        flex-direction: column;
-        padding: 20px;
-      }
-      nav ul {
-        margin-top: 10px;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-  
-      nav ul li {
-        margin: 2px;
-      }
-  
-      nav ul li a {
-        display: inline-block;
-      }
-    }
+
   }
   
   .logo {

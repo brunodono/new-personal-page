@@ -4,18 +4,16 @@ import styles from './Icons.module.scss'
 const Icons = () => {
     return (
         <>
-            <ul>
+            <table>
+                <tr>
                 {list.map((item) => (
-                <li key={item.id}>
-                    <i>
+                <td key={item.id}>
                         <img src={item.svg} alt={item.name} className={`${styles.icon} ${styles[item.hoverColor]}`} />
                         <p>{item.name}</p>
-                    </i>
-                    
-                </li>
+                </td>
             ))}
-
-            </ul>
+</tr>
+            </table>
         </>
 
     )
