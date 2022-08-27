@@ -9,7 +9,7 @@ const Content = forwardRef(({ contactNav }: any, ref: any) => {
     return (
 
         <>
-
+        
             <div className={styles.content}>
                 <div ref={ref} className={styles.column}>
                 <div className={styles.mobile_img}>

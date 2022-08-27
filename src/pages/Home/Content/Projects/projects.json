@@ -1,5 +1,12 @@
 [
     {
+        "title": "Event Tracker",
+        "info": "Event Tracker is a calendar project which I have worked on to fix state and responsibilities problems. I used Recoil to manage the state of the application. I followed the principle of DRY encapsulating the recoil method, made customized hooks and created a simulation of an API with json-server.",
+        "code": "https://github.com/brunodono/event-tracker",
+        "live": "",
+        "image": "https://raw.githubusercontent.com/brunodono/event-tracker/main/Screenshot.png"
+    },
+    {
         "title": "Let Eat Be",
         "info": "Italian restaurant application where you can access a menu with italian dishes. The system counts with an input to search the desired dish (no capital sensitive), also filter dishes by category and sort them by how many people the dish serves, portion and price, the cheapest to the most expensive. The details of each dish can be viewed on click. There is also the Home page which has a section that suggest three dishes randomly as Chef recommendations. If by chance a non existent route is accessed, a Not Found (404) page will be shown. Last but not least the about page with details of the restaurant.","code": "https://github.com/brunodono/let-eat-be-restaurant",
         "live": "https://let-eat-be-restaurant.vercel.app/",

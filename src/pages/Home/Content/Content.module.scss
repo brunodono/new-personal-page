@@ -6,6 +6,12 @@
     z-index: 1;
     align-items: center;
 
+    // background-color: blue;
+    // opacity: 0;
+    // transition: opacity 250ms ease-in;
+
+
+
 
     @media (max-width: 900px) {
       .content {
@@ -40,6 +46,10 @@
       }
     }
   }
+
+  // .content__appear {
+  //   opacity: 1;
+  // }
 
   .column {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);

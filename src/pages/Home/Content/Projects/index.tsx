@@ -22,13 +22,13 @@ const Projects = forwardRef((props, ref:any) => {
                                 <h4>{project.info}</h4>
                             </div>
                             <div className={styles.info_links}>
-                                <a href={project.live} target="blank">See Live</a>
+                                {project.live ? <a href={project.live} target="blank">See Live</a> : ""}
                                 <a href={project.code} target="blank">Source Code</a>
                             </div>
                         </div>
 
                         <div className={styles.hoverzoom}>
-                            <a href={project.live} target="blank">See Live</a>
+                            {project.live ? <a href={project.live} target="blank">See Live</a> : <a href={project.code} target="blank">See Code</a>}
                             <img src={project.image} alt="teste" />
                         </div>
 
