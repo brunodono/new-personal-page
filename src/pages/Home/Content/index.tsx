@@ -21,7 +21,7 @@ const Content = forwardRef(({ contactNav }: any, ref: any) => {
 
                     <h5 data-aos="fade-down" data-aos-duration="1000"><img src='/assets/Other/location.svg' />Dublin, Ireland</h5>
                     <p data-aos="fade-right" data-aos-duration="1000">
-                        I love software development, maintaining and building web pages. I'm seeking for new opportunities and challenges that allow me to expand my skill set ! Interested in hiring, talking or just discuss regarding any project ? I'm always available to listen to you, please contact me. 
+                        I love software development, maintaining and building web pages. I'm looking for new opportunities and challenges that allow me to expand my skill set ! Interested in hiring, talking or just discuss regarding any project ? I'm always available to listen to you, please contact me. 
                         <span className={styles.gif_coffee}>
                             <img src="/smile-coffee.gif" alt='smile' />
                             </span>
