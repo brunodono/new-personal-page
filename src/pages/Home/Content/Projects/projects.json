@@ -1,5 +1,12 @@
 [
     {
+        "title": "Daily Market(E-Commerce)",
+        "info": "Daily Market is an E-commerce application with its global state managed with ContextAPI. \n *Login screen(UserContext) with Name, and Balance, that are transfered to the following screen.\n *Market screen has the Shopping Cart context and displays the products that can be added and removed to the cart.\n *Shopping Cart screen has the payment context, at the moment three payment methods can be chosen and they are automatically applied to the Total in the cart. \n Customized hooks and connections among contexts were made to centralize the maintenance responsibility of the context out of the components and to have a better performance.",
+        "code": "https://github.com/brunodono/daily-market",
+        "live": "https://daily-market.vercel.app/",
+        "image": "https://raw.githubusercontent.com/brunodono/daily-market/main/Screenshot_2.png"
+    },
+    {
         "title": "Event Tracker",
         "info": "Event Tracker is a calendar project which I have worked on to fix state and responsibilities problems. I used Recoil to manage the state of the application. I followed the principle of DRY encapsulating the recoil method, made customized hooks and created a simulation of an API with json-server.",
         "code": "https://github.com/brunodono/event-tracker",
