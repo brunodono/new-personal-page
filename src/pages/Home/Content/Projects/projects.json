@@ -1,5 +1,12 @@
 [
     {
+        "title": "Secret Santa Selector(TDD)",
+        "info": "Secret Santa Selector project was created with the concept of TDD (Test Driven Development) the focus was on the component’s tests, which were made using testing library from react. Some tests implemented: snapshot test for a no behaviour page, form functionalities, participants list and so on. For an easier implementation it was used mocking tool from Jest library on some values, so it is independent of the global state. The application is fully flexible and consists in randomly sorting names to a classic Secret Santa game.",
+        "code": "https://github.com/brunodono/secret-santa-random-selector-test",
+        "live": "https://secret-santa-randomize-selector.vercel.app/",
+        "image": "https://raw.githubusercontent.com/brunodono/secret-santa-random-selector-test/main/Screenshot_1.png"
+    },
+    {
         "title": "Daily Market(E-Commerce)",
         "info": "Daily Market is an E-commerce application with its global state managed with ContextAPI. \n *Login screen(UserContext) with Name, and Balance, that are transfered to the following screen.\n *Market screen has the Shopping Cart context and displays the products that can be added and removed to the cart.\n *Shopping Cart screen has the payment context, at the moment three payment methods can be chosen and they are automatically applied to the Total in the cart. \n Customized hooks and connections among contexts were made to centralize the maintenance responsibility of the context out of the components and to have a better performance.",
         "code": "https://github.com/brunodono/daily-market",

@@ -82,6 +82,18 @@
         "name": "MUI",
         "svg": "assets/TechIcons/mui.svg",
         "hoverColor": "mui"
+    },
+    {
+        "id": 15,
+        "name": "Recoil",
+        "svg": "assets/TechIcons/recoil.png",
+        "hoverColor": "recoil"
+    },
+    {
+        "id": 16,
+        "name": "Jest",
+        "svg": "assets/TechIcons/jest.webp",
+        "hoverColor": "jest"
     }
 
 ]
