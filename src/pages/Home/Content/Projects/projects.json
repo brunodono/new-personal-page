@@ -1,5 +1,12 @@
 [
     {
+        "title": "Organo 2.0",
+        "info": "Organo 2.0 is a new responsive version of a project I've made in the past with refactored parts and some new features. Organo is an application made to register and expose the contributors of a Brazilian IT school with their respective name, occupation, images and team on dynamic cards.",
+        "code": "https://github.com/brunodono/organo-2.0",
+        "live": "https://organo-2-0.vercel.app/",
+        "image": "https://github.com/brunodono/organo-2.0/blob/main/organo_gif.gif?raw=true"
+    },
+    {
         "title": "Secret Santa Selector(TDD)",
         "info": "Secret Santa Selector project was created with the concept of TDD (Test Driven Development) the focus was on the component’s tests, which were made using testing library from react. Some tests implemented: snapshot test for a no behaviour page, form functionalities, participants list and so on. For an easier implementation it was used mocking tool from Jest library on some values, so it is independent of the global state. The application is fully flexible and consists in randomly sorting names to a classic Secret Santa game.",
         "code": "https://github.com/brunodono/secret-santa-random-selector-test",
